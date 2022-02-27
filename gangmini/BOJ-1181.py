@@ -7,11 +7,8 @@ description : 문자열, 정렬
 '''
 
 N = int(input())
-s_dict={} #중복 불가능
-s=''
-s_list = [input()for _ in s]
-for i in range(N):
-    s_dict[s] = len(s)
-s_dict = sorted(s_dict.items(), key=lambda x: x[1]) #문자열 길이로 정렬
-
-
+s_list = list({input() for _ in range(N)})
+s_list.sort() #사전순 정렬
+s_list.sort(key=lambda x:len(x)) #길이순 정렬
+for i in s_list:
+    print(i)
