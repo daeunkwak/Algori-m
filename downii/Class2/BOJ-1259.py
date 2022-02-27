@@ -9,7 +9,7 @@ import sys
 
 num_list=[]
 while(1):
-    num = str(sys.stdin.read())
+    num = input()
     if(num == '0'):
         break
     num_list.append(num)
