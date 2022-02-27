@@ -1,6 +1,7 @@
 """
-author : Cho Jayoung
-github : https://github.com/cho-ja-young
+author : Cho Jayoung, 26006@naver.com
+github : https://github.com/daeunkwak/Algori-m
+
 title : 별찍기 - 1
 description : 구현
 
