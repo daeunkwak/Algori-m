@@ -34,4 +34,3 @@ for s in num_list:
 
 
 
-
