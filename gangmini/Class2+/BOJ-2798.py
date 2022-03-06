@@ -5,8 +5,18 @@ github : https://github.com/daeunkwak/Algori-m
 title : 블랙잭
 description : 브루트포스 알고리즘 '''
 
-#랜덤으로 N개의 카드 생성(합이 M을 넘지 않는 카드 3장 뽑을 수 있어야 함)
-import random
 N, M = map(int, input().split())
-card = random.sample(range(1,100001),N) #중복X
-print(card)
+card = list(map(int, input().split()))
+
+max = 0
+end = len(card)
+for i in range(0,end-2):
+    for j in range(i+1,end-1):
+        for k in range(j+1,end):
+            sum = card[i]+card[j]+card[k]
+            if(sum == M):
+                print(sum)
+                exit(0)
+            if(max<sum<M):
+                max = sum
+print(max)
