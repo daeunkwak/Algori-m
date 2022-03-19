@@ -10,3 +10,4 @@ while(1):
     N, M = int(input().split())
     if(8<=N,M<=50):
         break
+
