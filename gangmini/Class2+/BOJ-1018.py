@@ -11,7 +11,7 @@ description : 브루트포스 알고리즘
 import sys
 #보드 생성
 while(1):
-    N, M = map(int,input().split())
+    N, M = map(int,input().split(" "))
     if(8<=N,M<=50):
         break
 borad = list(sys.stdin.readline().strip() for _ in range(N))
