@@ -56,5 +56,22 @@ def back():
 
 
 N = int(input())
-statment = [list(map(input().split())) for _ in range(N)]
-print(statment)
+statment = [list(map(str,input().split())) for _ in range(N)]
+for i in statment:
+    if(i[0]=='push_back'):
+        push_back(i[1])
+    elif(i[0]=='push_front'):
+        push_front(i[1])
+    elif (i[0] == 'front'):
+        front()
+    elif (i[0] == 'back'):
+        back()
+    elif (i[0] == 'size'):
+        size()
+    elif (i[0] == 'empty'):
+        empty()
+    elif (i[0] == 'pop_front'):
+        pop_front()
+    elif (i[0] == 'pop_back'):
+        pop_back()
+
