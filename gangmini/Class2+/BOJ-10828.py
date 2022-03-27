@@ -35,7 +35,6 @@ def top():
         return;
     print(stack[len(stack)-1])
 
-
 N = int(input())
 statment = [list(map(str,input().split())) for _ in range(N)]
 for i in statment:
