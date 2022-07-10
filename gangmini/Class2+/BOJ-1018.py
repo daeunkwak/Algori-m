@@ -8,16 +8,58 @@ description : 브루트포스 알고리즘
 
 ##다으니=>체스판의 경우 2가지를 미리 만들어놓고 비교
 
-import sys
+mini=64 #8x8 체스판 모두 바꾸는 경우가 최대
+str1 = 'BWBWBWBWWBWBWBWBBWBWBWBWWBWBWBWBBWBWBWBWWBWBWBWBBWBWBWBWWBWBWBWB'
+str2 = 'WBWBWBWBBWBWBWBWWBWBWBWBBWBWBWBWWBWBWBWBBWBWBWBWWBWBWBWBBWBWBWBW'
+
+def compare_str(chass, str):
+    global mini #전역변수 사용 위해 global 선언
+    count=0
+    #8번씩 문자 8개 비교
+    for i in range(64):
+        if(chass[i]!=str[i]):
+            count = count+1
+    if(count < mini):
+        mini = count
+
 #보드 생성
+borad=[]
 while(1):
     N, M = map(int,input().split(" "))
-    if(8<=N,M<=50):
+    if(N<0 |N<8 | M>50):
+        print("N, M은 8이상 50이하")
         break
-borad = list(sys.stdin.readline().strip() for _ in range(N))
+    else:
+        for i in range(N):
+            borad.append(input())
+        break
+print(borad)
 
+for i in range(N-7):
+    for j in range(M-7):
+        chass=''
+        for k in range(8):
+            chass = chass+borad[i:i+8][k][j:j+8]
+        #print(chass)
+        compare_str(chass, str1)  # 8x8 부분 집합
+        compare_str(chass, str2)
+           
+print(mini)
+
+
+
+
+
+
+
+
+
+
+
+
+'''
 #모든 경우 검사
-min = 100
+min = 64 #8x8 체스판 모두 바꾸는 경우가 최대
 for i in range(N-7): #세로에서 8개 뽑을 수 있는 경우의 수
     for j in range(M-7): #가로에서 8개를 뽑을 수 있는 경우의 수
         count_B = 0
@@ -43,24 +85,6 @@ for i in range(N-7): #세로에서 8개 뽑을 수 있는 경우의 수
         #count_B, count_W 중 더 작은 것
 
         #min보다 더 작은지 확인
-
-'''
-min = 100
-for i in range(N-8+1): #세로에서 8개 뽑을 수 있는 경우의 수
-    for j in range(M-8+1): #가로에서 8개를 뽑을 수 있는 경우의 수  #17 #B:11 W:6 => 32 32 // 37->32  27+5=32
-        count_B = 0
-        count_W = 0
-        for k in range(8):
-            print(borad_BW[i + k][j:j + 8])
-            count_B += borad_BW[i + k][j:j + 8].count("B")
-            count_W  += borad_BW[i + k][j:j + 8].count("W")
-
-        print(count_B)
-        print(count_W)
-        if((32-count_B)+(32-count_W)<min):
-            min = (32-count_B)+(32-count_W)
-        print()
-print(min)
 '''
 
 
