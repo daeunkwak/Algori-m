@@ -13,7 +13,7 @@ def push(x):
 
 def pop(): #제일 앞의 값을 지우면 어떻게 되는지 확인
     if(len(qqu)==0):
-        return -1
+        print(-1)
     else:
         print(qqu[0])
         qqu.pop(0)
@@ -23,19 +23,19 @@ def size():
 
 def empty():
     if(len(qqu)==0):
-        return 1
+        print(1)
     else:
-        return 0
+        print(0)
 
 def front():
     if(len(qqu)==0):
-        return -1
+        print(-1)
     else:
         print(qqu[0])
 
 def back():
     if (len(qqu) == 0):
-        return -1
+        print(-1)
     else:
         print(qqu[len(qqu)-1])
 
