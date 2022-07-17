@@ -8,9 +8,9 @@
 
 ### ****☑️  Member****
 
-- [곽다은](https://github.com/daeunkwak)
-- [김경민](https://github.com/honor-sky)
-- [조자영](https://github.com/cho-ja-young)
+- [곽다은](https://github.com/daeunkwak/Algori-m/tree/main/downii)
+- [김경민](https://github.com/daeunkwak/Algori-m/tree/main/gangmini)
+- [조자영](https://github.com/daeunkwak/Algori-m/tree/main/jamong)
 
 ### ****☑️  Study Plan****
 
