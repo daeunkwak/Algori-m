@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="gang_module:test" external.linked.project.path="$MODULE_DIR$/../../gangmini/gang_module" external.root.project.path="$MODULE_DIR$/../../gangmini/gang_module" external.system.id="GRADLE" external.system.module.group="org.example" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="noReflect" arg="true" />
+            <flagArg name="noStdlib" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="classpath">
+              <args>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/build/classes/kotlin/main</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.7.20-Beta/1d1ea85848e0d4e6349aac11e4d36e36871a278d/kotlin-stdlib-jdk8-1.7.20-Beta.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.8.1/1e362cbe6d0f225b066757865e233972557484/junit-platform-commons-1.8.1.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.1/6538b88eb8bf8811bc7b6efb5246f835c15e0bfe/junit-jupiter-api-5.8.1.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.7.20-Beta/bfd83a795c85e5ee6acd213c84672058126922bd/kotlin-stdlib-jdk7-1.7.20-Beta.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.20-Beta/5ca54c5ff9f784807564c3f15615607cb5876f81/kotlin-stdlib-1.7.20-Beta.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.7.20-Beta/7dc8e0a9a7295cf0dd3787c75a62ecfd8e64ad3e/kotlin-stdlib-common-1.7.20-Beta.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
+              </args>
+            </stringArg>
+            <stringArg name="destination" arg="$MODULE_DIR$/../../gangmini/gang_module/build/classes/kotlin/test" />
+            <stringArg name="jvmTarget" arg="1.8" />
+            <stringArg name="moduleName" arg="gang_module" />
+            <stringArg name="apiVersion" arg="1.7" />
+            <stringArg name="languageVersion" arg="1.7" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="friendPaths">
+              <args>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/build/classes/java/main</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/build/classes/kotlin/main</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/build/libs/gang_module-1.0-SNAPSHOT.jar</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginClasspaths">
+              <args>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.7.20-Beta/caa93a52b1253831ea6ac2ab549472b9e8e5115a/kotlin-scripting-jvm-1.7.20-Beta.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.7.20-Beta/3f68710fa69a82f771884947a89b685e7b99a9b8/kotlin-scripting-common-1.7.20-Beta.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.20-Beta/5ca54c5ff9f784807564c3f15615607cb5876f81/kotlin-stdlib-1.7.20-Beta.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.7.20-Beta/7dc8e0a9a7295cf0dd3787c75a62ecfd8e64ad3e/kotlin-stdlib-common-1.7.20-Beta.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
+                <arg>$MODULE_DIR$/../../gangmini/gang_module/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.7.20-Beta/2dbdc78afa7f60f6dcc52d9976808bcd9a9e07d0/kotlin-script-runtime-1.7.20-Beta.jar</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output-test url="file://$MODULE_DIR$/../../gangmini/gang_module/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../gangmini/gang_module/src/test" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="gang_module.main" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20-Beta" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20-Beta" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.20-Beta" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apiguardian:apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20-Beta" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.8.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.8.1" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="gang_module.main" />
+</module>
