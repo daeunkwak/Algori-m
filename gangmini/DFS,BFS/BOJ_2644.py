@@ -1,3 +1,10 @@
+'''
+author : kyungmin Kim, keung903@naver.com
+github : https://github.com/daeunkwak/Algori-m
+title : 촌수계산
+description : 그래프,너비/깊이 탐색
+'''
+
 
 class Kinship:
     count = 0

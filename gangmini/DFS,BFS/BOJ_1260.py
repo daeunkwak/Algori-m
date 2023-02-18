@@ -1,3 +1,10 @@
+'''
+author : kyungmin Kim, keung903@naver.com
+github : https://github.com/daeunkwak/Algori-m
+title : DFS와 BFS
+description : 그래프,너비/깊이 탐색
+'''
+
 from collections import deque
 
 class DFS_BFS:
